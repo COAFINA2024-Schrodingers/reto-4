@@ -3,4 +3,4 @@ Predicción del ciclo solar 25 mediante modelos de machine learning e inteligenc
 
 
 
-URL de la página web: https://669d3da19dd1e0a41e104a98--fantastic-zabaione-c50961.netlify.app/
+URL de la página web: https://669d44de09fafcaba04787e6--brilliant-starlight-940d30.netlify.app

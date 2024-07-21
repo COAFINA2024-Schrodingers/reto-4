@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Sun's prediction</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-image: url(https://images.pexels.com/photos/87611/sun-fireball-solar-flare-sunlight-87611.jpeg?cs=srgb&dl=pexels-pixabay-87611.jpg&fm=jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #000000;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            position: fixed;
+            width:100%;
+            bottom: 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sun's prediction</h1>
+    </header>
+
+    <nav>
+        <a href="demo pagina 1.html">Inicio</a>
+        <a href="IA.html">IA</a>
+        <a href="equipo.html" class="button">Nuestro Equipo de trabajo</a>
+    </nav>
+
+    <div class="conteiner">
+        <p>{{resultado}}</p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Sun's prediction. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
